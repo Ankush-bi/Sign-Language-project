@@ -1,0 +1,152 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+*.code-workspace
+
+# =========================
+# Operating System Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python Build Files
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# =========================
+# Testing & Coverage
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# =========================
+# Model Files (Large Files)
+# Uncomment if models are not tracked
+# =========================
+# models/
+# *.h5
+# *.keras
+# *.pb
+# *.tflite
+# *.onnx
+# *.pt
+# *.pth
+# *.ckpt
+
+# =========================
+# Dataset
+# Uncomment if dataset is not tracked
+# =========================
+# dataset/
+# data/
+# datasets/
+
+# =========================
+# TensorBoard
+# =========================
+logs/
+events.out.tfevents.*
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+
+# =========================
+# Flask
+# =========================
+instance/
+*.db
+*.sqlite3
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# =========================
+# Miscellaneous
+# =========================
+.cache/
+
+
+
+# =========================
+# venv
+# =========================
+
+.venv/
+.sign/
+sign
+.gitignore/
+
+# =========================
+# Dataset
+# =========================
+
+.dataset/
+dataset
+.dataset
+
+# =========================
+# models
+# =========================
+
+models/
+*.keras
+*.h5
+*.hdf5
+models/
+*.keras
+*.h5
+dataset/
+venv/
+__pycache__/
